@@ -1,0 +1,65 @@
+.products-container {
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin: 5rem 5rem 0 5rem;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+
+}
+
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    gap: 0.5rem;
+    position: relative;
+    height: 16rem;
+    box-shadow: 0px 1px 1px 0px grey;
+    align-items: center;
+
+
+}
+
+.hide {
+    display: none;
+    color: white;
+    align-items: center;
+    background-color: rgb(152, 152, 242);
+    z-index: 1;
+    height: 3rem;
+    position: absolute;
+    width: 10rem;
+    border: none;
+    bottom:0.1px;
+
+}
+
+.product-image {
+    height: 13rem;
+    object-fit: contain;
+    width: 10rem;
+    height: 11rem;
+
+
+
+}
+
+.filled-heart-icon {
+    color: red;
+}
+
+.heart-icon{
+    position: absolute;
+    font-size: 1.2rem;
+    right: 1rem;
+    top:-0.1rem;
+
+}
+
+.product-container :hover + .hide{
+    display: block;
+}
+

@@ -1,0 +1,38 @@
+.sugg-container1 {
+    position: absolute;
+    margin: 50rem 20rem 0 0rem;
+    background-color: white;
+    padding: 1rem;
+    border: 2rem;
+}
+
+.sugg-container2{
+    display: flex;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.sugg-container3 {
+    margin: 2rem;
+    flex-direction: row;
+    box-shadow: 0 5px 8px 0px grey;
+    padding: 1rem;
+}
+
+.sugg-img {
+    height: 6rem;
+    width: 5rem;
+    object-fit: contain;
+
+}
+.sugg-list{
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    font-size: small;
+}
+.prod-sugg-title{
+    font-size: small;
+}

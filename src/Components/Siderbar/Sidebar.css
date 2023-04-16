@@ -1,0 +1,9 @@
+.sidebar-conatiner{
+    position: fixed;
+    top:10%;
+    padding: 2rem;
+}
+
+.rating{
+    display: flex;
+}

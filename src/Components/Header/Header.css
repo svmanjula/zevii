@@ -1,0 +1,64 @@
+.search {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    border-color: gray;
+    padding-left: 3rem;
+    font-size: medium;
+}
+
+.header {
+    align-items: center;
+    margin: 0 2rem 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 0 5rem;
+    gap: 4rem;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+
+}
+
+
+
+.brand-name {
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 15rem;
+}
+
+.brand-icon {
+    transform: rotate(45deg);
+
+}
+
+.search-icon {
+    position: relative;
+    font-size: 2rem;
+    right: 8rem;
+}
+
+.shpbtn {
+    border-radius: 1rem;
+    padding: 1rem;
+    border: none;
+    color: white;
+    background-color: pink;
+    font-weight: bolder;
+    font-size: medium;
+    position: absolute;
+    top: 2rem;
+    right: 25rem;
+    text-align: center;
+
+
+}
+
+.nav-brand-link {
+    text-decoration: none;
+    color: inherit;
+
+}
